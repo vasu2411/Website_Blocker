@@ -11,7 +11,7 @@ redirect="127.0.0.1"
 websites=["www.youtube.com","youtube.com","www.instagram.com","instagram.com"]
 
 #working hours
-time_from = dt(dt.now().year,dt.now().month,dt.now().day,16)
+time_from = dt(dt.now().year,dt.now().month,dt.now().day,1)
 time_to = dt(dt.now().year,dt.now().month,dt.now().day,18)
 
 while True:
